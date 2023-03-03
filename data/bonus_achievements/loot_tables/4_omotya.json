@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "ブーツロッド"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "name": "",
+              "amount": 180,
+              "operation": "addition",
+              "slot": "feet"
+            },
+           {
+              "attribute": "minecraft:generic.knockback_resistance",
+              "name": "",
+              "amount": 6.4,
+              "operation": "addition",
+              "slot": "feet"
+            },
+           {
+              "attribute": "minecraft:generic.attack_damage",
+              "name": "",
+              "amount": 256,
+              "operation": "addition",
+              "slot": "feet"
+            },
+            {
+              "attribute": "minecraft:generic.armor",
+              "name": "",
+              "amount": 50,
+              "operation": "addition",
+              "slot": "feet"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:mending": 1
+          }
+        }
+      ]
+    }
+  ]
+}

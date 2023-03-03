@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#II",
+        "DWI",
+        "WD#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sea_lantern"
+        },
+        "I": {
+            "item": "minecraft:iron_sword"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "W": {
+            "item": "minecraft:waxed_copper_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

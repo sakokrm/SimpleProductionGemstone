@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "PCP",
+        "#P#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:purpur_block"
+        },
+        "P": {
+            "item": "minecraft:player_head"
+        },
+        "C": {
+            "item": "minecraft:respawn_anchor"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_head",
+        "count": 1
+    }
+}

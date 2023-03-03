@@ -1,0 +1,29 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:scute"
+     },
+"frame": "challenge",
+     "title": "亀育て隊",
+     "description": "亀を育成しての甲羅を大量生産しよう。"
+   },
+   "parent": "bonus_achievements:root",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:scute"
+             ],
+             "count": 32
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:4_omotya"]
+}
+ }

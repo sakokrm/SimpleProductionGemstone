@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# N",
+        "I I"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chain"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_boots",
+        "count": 1
+    }
+}

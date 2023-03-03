@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "WCW",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:smooth_stone"
+        },
+        "D": {
+            "item": "minecraft:dragon_head"
+        },
+        "W": {
+            "item": "minecraft:waxed_oxidized_copper"
+        },
+        "C": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_ore",
+        "count": 15
+    }
+}

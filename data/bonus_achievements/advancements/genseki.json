@@ -1,0 +1,40 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:raw_copper_block"
+     },
+     "title": "原石王",
+     "description": "３種類の原石を沢山集める。"
+   },
+   "parent": "bonus_achievements:emerard",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:raw_copper_block"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:raw_iron_block"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:raw_gold_block"
+             ],
+             "count": 64
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:ippan"]
+}
+ }

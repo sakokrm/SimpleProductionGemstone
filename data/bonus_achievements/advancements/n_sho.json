@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:netherite_shovel"
+     },
+     "title": "地獄に眠る土堀道具",
+     "description": "ようやく手に入れたネザライトをシャベルに使う"
+   },
+   "parent": "bonus_achievements:n_sow",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:netherite_shovel"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:sphead"]
+}
+ }

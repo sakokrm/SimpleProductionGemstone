@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#P#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        },
+        "P": {
+            "item": "minecraft:packed_mud"
+        }
+    },
+    "result": {
+        "item": "minecraft:coarse_dirt",
+        "count": 5
+    }
+}

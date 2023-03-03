@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:zombie_head"
+     },
+     "title": "頭集め(ゾンビ編)",
+     "description": "ゾンビの頭を手に入れる"
+   },
+   "parent": "bonus_achievements:root",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:zombie_head"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:ippan"]
+}
+ }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:trident"
+    },
+    "result": "minecraft:exposed_copper",
+    "experience": 0.1,
+    "cookingtime": 6000
+}

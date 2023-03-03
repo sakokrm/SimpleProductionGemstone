@@ -1,0 +1,29 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:dragon_egg"
+     },
+"frame": "challenge",
+     "title": "なんで竜の卵がこんなにも！？",
+     "description": "ある方法を利用してエンダードラゴンの卵を量産しよう。"
+   },
+   "parent": "bonus_achievements:kame",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:dragon_egg"
+             ],
+             "count": 16
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:3_omotya"]
+}
+ }

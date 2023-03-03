@@ -1,0 +1,26 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:allay_spawn_egg"
+     },
+     "title": "特別クエスト!",
+     "description": "この実績欄は基本報酬があります。",
+     "background": "minecraft:textures/block/amethyst_block.png",
+     "frame": "task"
+   },
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:crafting_table"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   }
+ }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:tropical_fish"
+        },
+        {
+            "item": "minecraft:tropical_fish"
+        },
+        {
+            "item": "minecraft:seagrass"
+        },
+        {
+            "item": "minecraft:seagrass"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "minecraft:tropical_fish_bucket",
+        "count": 1
+    }
+}

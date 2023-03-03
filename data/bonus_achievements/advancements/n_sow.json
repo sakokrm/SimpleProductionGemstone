@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:netherite_sword"
+     },
+     "title": "黒光の地獄の剣",
+     "description": "ようやく手に入れたネザライトを剣に使う"
+   },
+   "parent": "bonus_achievements:n_ax",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:netherite_sword"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:nohead"]
+}
+ }

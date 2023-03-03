@@ -1,0 +1,64 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:stone"
+     },
+     "title": "石材王",
+     "description": "石,閃緑,安山,花崗,深層,玄武,ブラックストーンを沢山集める。"
+   },
+   "parent": "bonus_achievements:wooder",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:basalt"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:stone"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:granite"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:diorite"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:andesite"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:deepslate"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:blackstone"
+             ],
+             "count": 64
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:ippan"]
+}
+ }

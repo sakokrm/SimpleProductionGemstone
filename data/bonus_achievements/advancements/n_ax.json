@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:netherite_axe"
+     },
+     "title": "地獄の果てに生まれた斧",
+     "description": "ようやく手に入れたネザライトを斧に使う"
+   },
+   "parent": "bonus_achievements:n_pix",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:netherite_axe"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:sphead"]
+}
+ }

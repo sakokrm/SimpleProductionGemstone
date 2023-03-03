@@ -1,0 +1,77 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:netherite_block"
+     },
+"frame": "challenge",
+     "title": "地獄の制覇者",
+     "description": "ネザライトを付与できる防具とツールを全てに付与する。"
+   },
+   "parent": "bonus_achievements:n_sho",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:netherite_axe"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_pickaxe"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_shovel"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_hoe"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_helmet"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_chestplate"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_leggings"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_boots"
+             ],
+             "count": 1
+           },
+           {
+             "items": [
+               "minecraft:netherite_sword"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:2_omotya"]
+}
+ }

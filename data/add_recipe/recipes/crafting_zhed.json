@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Z#",
+        "PBP",
+        "#Z#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "Z": {
+            "item": "minecraft:zombie_head"
+        },
+        "P": {
+            "item": "minecraft:player_head"
+        },
+        "B": {
+            "item": "minecraft:poisonous_potato"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_head",
+        "count": 3
+    }
+}

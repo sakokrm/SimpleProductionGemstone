@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:nautilus_shell"
+    },
+    "result": "minecraft:calcite",
+    "experience": 0.7,
+    "cookingtime": 600
+}

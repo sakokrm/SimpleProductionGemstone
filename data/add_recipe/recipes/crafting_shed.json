@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "PYP",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bone_block"
+        },
+        "S": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "P": {
+            "item": "minecraft:player_head"
+        },
+        "Y": {
+            "item": "minecraft:poisonous_potato"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_skull",
+        "count": 3
+    }
+}

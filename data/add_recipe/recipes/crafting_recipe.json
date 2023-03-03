@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SDS",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:player_head"
+        },
+        "S": {
+            "item": "minecraft:soul_sand"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_scrap",
+        "count": 2
+    }
+}

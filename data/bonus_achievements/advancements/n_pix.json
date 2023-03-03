@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:netherite_pickaxe"
+     },
+     "title": "地獄より目覚めたツルハシ",
+     "description": "ようやく手に入れたネザライトをピッケルに使う"
+   },
+   "parent": "bonus_achievements:root",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:netherite_pickaxe"
+             ],
+             "count": 1
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:nohead"]
+}
+ }

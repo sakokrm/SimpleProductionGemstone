@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "YHY",
+        "#Y#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dragon_head"
+        },
+        "Y": {
+            "item": "minecraft:yellow_wool"
+        },
+        "H": {
+            "item": "minecraft:honey_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 1
+    }
+}

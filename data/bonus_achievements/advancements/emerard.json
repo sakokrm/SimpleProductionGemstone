@@ -1,0 +1,28 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:emerald_block"
+     },
+     "title": "どうしてそこまで交易を！？",
+     "description": "エメラルドブロックを大量生産する。"
+   },
+   "parent": "bonus_achievements:store",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:emerald_block"
+             ],
+             "count": 64
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:ippan"]
+}
+ }

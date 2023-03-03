@@ -1,0 +1,76 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:oak_log"
+     },
+     "title": "原木王",
+     "description": "全ての原木として扱えるものを沢山集める。"
+   },
+   "parent": "bonus_achievements:root",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:oak_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:birch_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:spruce_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:jungle_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:acacia_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:dark_oak_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:mangrove_log"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:crimson_stem"
+             ],
+             "count": 64
+           },
+           {
+             "items": [
+               "minecraft:warped_stem"
+             ],
+             "count": 64
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:ippan"]
+}
+ }

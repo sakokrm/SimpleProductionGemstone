@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "祝福された複製された頭"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }}
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.armor",
+              "name":"",
+              "amount": 3,
+              "operation": "addition",
+              "slot": "head"
+            },
+            {
+              "attribute": "minecraft:generic.max_health",
+              "name":"",
+              "amount": -4,
+              "operation": "addition",
+              "slot": "head"
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "name":"",
+              "amount": 2,
+              "operation": "addition",
+              "slot": "mainhand"
+            },
+            {
+              "attribute": "minecraft:generic.max_health",
+              "name":"",
+              "amount": -4,
+              "operation": "addition",
+              "slot": "mainhand"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:vanishing_curse": 1
+          }
+        }
+      ]
+    }
+  ]
+}

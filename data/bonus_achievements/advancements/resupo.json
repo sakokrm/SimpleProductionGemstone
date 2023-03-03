@@ -1,0 +1,29 @@
+{
+   "display": {
+     "icon": {
+       "item": "minecraft:respawn_anchor"
+     },
+"frame": "challenge",
+     "title": "安全対策バッチリ？",
+     "description": "リスポーンアンカーを沢山作る。"
+   },
+   "parent": "bonus_achievements:genseki",
+   "criteria": {
+     "requirement": {
+       "trigger": "minecraft:inventory_changed",
+       "conditions": {
+         "items": [
+           {
+             "items": [
+               "minecraft:respawn_anchor"
+             ],
+             "count": 64
+           }
+         ]
+       }
+     }
+   },
+    "rewards": {
+"loot": ["bonus_achievements:1_omotya"]
+}
+ }

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "SFS",
+        "TPT"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_crystal"
+        },
+        "D": {
+            "item": "minecraft:dragon_head"
+        },
+        "S": {
+            "item": "minecraft:shulker_shell"
+        },
+        "F": {
+            "item": "minecraft:dragon_egg"
+        },
+        "T": {
+            "item": "minecraft:feather"
+        },
+        "P": {
+            "item": "minecraft:dragon_breath"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}
