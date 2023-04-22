@@ -13,7 +13,7 @@
             "item": "minecraft:clay"
         },
         "S": {
-            "item": "minecraft:pottery_shard_arms_up"
+            "item": "minecraft:brewer_pottery_sherd"
         },
         "F": {
             "item": "minecraft:flint_and_steel"
@@ -29,7 +29,7 @@
         }
     },
     "result": {
-        "item": "minecraft:pottery_shard_arms_up",
+        "item": "minecraft:brewer_pottery_sherd",
         "count": 2
     }
 }
