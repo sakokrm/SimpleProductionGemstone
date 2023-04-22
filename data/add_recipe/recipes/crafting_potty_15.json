@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "CSF",
+        "WGE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+        "C": {
+            "item": "minecraft:clay"
+        },
+        "S": {
+            "item": "minecraft:angler_pottery_sherd"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "W": {
+            "item": "minecraft:sand"
+        },
+        "G": {
+            "item": "minecraft:gravel"
+        },
+        "E": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:angler_pottery_sherd",
+        "count": 2
+    }
+}
