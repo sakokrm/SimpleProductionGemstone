@@ -13,7 +13,7 @@
             "item": "minecraft:clay"
         },
         "S": {
-            "item": "minecraft:heartbreak_pottery_sherd"
+            "item": "minecraft:brewer_pottery_sherd"
         },
         "F": {
             "item": "minecraft:flint_and_steel"
@@ -29,7 +29,7 @@
         }
     },
     "result": {
-        "item": "minecraft:heartbreak_pottery_sherd",
+        "item": "minecraft:brewer_pottery_sherd",
         "count": 2
     }
 }

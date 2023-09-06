@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "WTW",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "D": {
+            "item": "minecraft:dragon_head"
+        },
+        "W": {
+            "item": "minecraft:waxed_oxidized_copper"
+        },
+        "T": {
+            "item": "minecraft:torchflower"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_star",
+        "count": 33
+    }
+}

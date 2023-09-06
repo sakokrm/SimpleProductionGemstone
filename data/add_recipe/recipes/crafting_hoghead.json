@@ -10,7 +10,7 @@
             "item": "minecraft:nether_star"
         },
         "S": {
-            "item": "minecraft:stone"
+            "item": "minecraft:piglin_head"
         },
         "P": {
             "item": "minecraft:porkchop"
@@ -20,7 +20,7 @@
         }
     },
     "result": {
-        "item": "minecraft:stone",
+        "item": "minecraft:piglin_head",
         "count": 3
     }
 }
